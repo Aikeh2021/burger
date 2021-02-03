@@ -12,7 +12,7 @@ id INTEGER AUTO_INCREMENT NOT NULL,
 -- burger_name column of string type --
 burger_name VARCHAR(50) NOT NULL,
 -- devoured column of boolean (probably set it to false to start out with) --
-devoured BOOLEAN DEFAULT(false),
+devoured BOOLEAN DEFAULT(false) NOT NULL,
 -- Setting the id to the primary key
 PRIMARY KEY (id)
 );
