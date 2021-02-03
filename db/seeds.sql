@@ -1,0 +1,1 @@
+-- Write 5 INSERT INTO queries to get some seed data to work with --
