@@ -16,9 +16,8 @@ app.get("/api/config", (req, res) => {
     )
 });
 
-// db.sequelize.sync({ force: true }).then(() => {
-db.sequelize.sync().then(() => {
-    app.listen(PORT, () => {
-      console.log(`App is running on http://localhost:${PORT}`);
-    });
-  });
+
+app.listen(PORT, () => {
+    console.log(`App is running on http://localhost:${PORT}`);
+});
+
